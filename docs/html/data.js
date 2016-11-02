@@ -1,0 +1,2 @@
+var tags = []
+var specs = [{"path":"BookDoctors.html","name":"Book doctors","scenarios":[{"name":"Find doctor by profession","tags":[]}]},{"path":"BookSalon.html","name":"Book salon/spa","scenarios":[{"name":"Filter search results","tags":[]}]},{"path":"Search.html","name":"Search","scenarios":[{"name":"Search by speciality","tags":[]}]}]
