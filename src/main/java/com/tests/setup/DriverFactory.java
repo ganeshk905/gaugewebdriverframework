@@ -49,6 +49,7 @@ public class DriverFactory {
     }
 
     private static WebDriver createFirefoxDriver(boolean clearCache) {
+        System.setProperty("webdriver.gecko.driver", System.getenv("webdriver_gecko_driver"));
         FirefoxProfile profile = new FirefoxProfile();
         profile.setPreference("browser.cache.disk.enable", !clearCache);
         profile.setPreference("browser.cache.memory.enable", !clearCache);
